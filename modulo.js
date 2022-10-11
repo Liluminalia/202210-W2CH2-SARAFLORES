@@ -9,6 +9,7 @@ export const strictEquals = (a, b) => {
     }
 
     let result = Object.is(a, b);
+
     let table = [a, b, result];
     return table;
 };
